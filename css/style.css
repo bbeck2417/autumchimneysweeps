@@ -1,0 +1,146 @@
+a,
+h2,
+h3 {
+    color: #ffdb5e
+}
+
+ul.nav,
+ul.nav li,
+ul.nav li a {
+    list-style: none
+}
+
+#intro h1,
+h2,
+h3 {
+    letter-spacing: .5px
+}
+
+#copyright,
+ul.end,
+ul.nav {
+    text-align: center
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    color: #FAF3BC;
+    background: url(img/bg-texture.jpg) #420600;
+    position: relative;
+    margin-top: 10px;
+    letter-spacing: 1px
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    color: red
+}
+
+h1 {
+    font-size: 1.25em;
+    letter-spacing: -.5px
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+h3 {
+    font-size: 2.5em
+}
+
+.btn,
+ul.nav li h2 {
+    text-transform: uppercase;
+    color: #FAF3BC
+}
+
+.btn {
+    background: url(img/texture.png) right top no-repeat #4FB69F;
+    padding: 15px 30px;
+    margin: 40px 0;
+    border-radius: 25px
+}
+
+#featured-cupcake img,
+#new-cupcakes img {
+    border: 8px solid #FAF3BC
+}
+
+/*img {
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;%;
+    /*width: 50%;
+	width: 600px;
+	height: 450px;
+}*/
+
+
+
+
+
+.btn:hover {
+    background-color: #4CC4A7
+}
+
+ul.nav {
+    margin: auto;
+    float: right
+}
+
+ul.nav li {
+    float: left
+}
+
+ul.creds {
+    list-style: circle
+
+
+}
+
+.creds {
+	justify-content: flex-start;
+}
+
+#fireplace {
+
+	width: 600px;
+	height: 400px;
+	margin: auto;
+
+}
+
+.floatleft {
+
+	padding-right: 100px;
+}
+
+ul.end {
+    list-style: none
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: flex;
+    transition: all 1s
+}
+
+.logo:hover {
+    transform: scale(1.1)
+}
+
+#new-cupcakes img {
+    margin: 0 0 20px
+}
+
+#copyright {
+    border-top: 8px solid #2A0400;
+    padding: 10px 0;
+    margin: 15px 0
+}
